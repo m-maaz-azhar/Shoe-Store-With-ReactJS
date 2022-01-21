@@ -1,0 +1,23 @@
+[
+    {
+        "id": "Nike-BH-1",
+        "title": "Nike BH",
+        "price": "$220.00",
+        "image": "https://i.ibb.co/fxRNdvd/nike.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident reprehenderit, obcaecati doloremque dignissimos voluptatibus consequatur nobis hic esse non est maxime quas suscipit animi quaerat, a atque nihil temporibus."
+    },
+    {
+        "id": "Adidas-AG-2",
+        "title": "Adidas AG",
+        "price": "$150.00",
+        "image": "https://i.ibb.co/6YjppXx/adidas-removebg-preview-1.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident reprehenderit, obcaecati doloremque dignissimos voluptatibus consequatur nobis hic esse non est maxime quas suscipit animi quaerat, a atque nihil temporibus."
+    },
+    {
+        "id": "Puma-CI-3",
+        "title": "Puma CI",
+        "price": "$130.00",
+        "image": "https://i.ibb.co/X472pN7/puma-removebg-preview.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident reprehenderit, obcaecati doloremque dignissimos voluptatibus consequatur nobis hic esse non est maxime quas suscipit animi quaerat, a atque nihil temporibus."
+    }
+]

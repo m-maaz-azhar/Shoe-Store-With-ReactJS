@@ -1,0 +1,19 @@
+.navBar{
+    background-color:#ee5253;
+    color: white;
+    min-height: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #222f3e;
+}
+.navBar ul a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+.navBar ul a:hover{
+    background-color: #fd6c6c;
+}

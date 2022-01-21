@@ -1,0 +1,12 @@
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.text-center{
+    text-align: center;
+}
+.my-15{
+    margin: 15px 0px;
+}
