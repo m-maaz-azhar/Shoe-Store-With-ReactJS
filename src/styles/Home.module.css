@@ -1,0 +1,52 @@
+@media screen and (max-width:800px){
+    .content{
+        width:100% !important;
+        background-color: rgba(0,0,0,0.5);
+        padding: 20px !important;
+    }
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../assets/images/bgPoster.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.content{
+    width:40vw;
+    display: flex;
+    flex-flow: column wrap;
+    color: white;
+    padding: 0px 35px;
+    margin-top: 20vh;
+}
+.content>h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+.content>h2{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+.content>p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 20px 0px;
+    padding: 0;
+}
+.content>a{
+    background-color:#DB2F53;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    margin:10px 0px;
+    width: 150px;
+}

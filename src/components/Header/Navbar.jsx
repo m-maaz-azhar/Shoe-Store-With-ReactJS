@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import styles from './Header.module.css'
+import styles from './Navbar.module.css'
 
-function Header() {
+function Navbar() {
   return (
     <header>
       <nav className={styles.navBar}>
@@ -11,11 +11,11 @@ function Header() {
         <ul>
           <Link to="/">HOME</Link>
           <Link to="/products">PRODUCTS</Link>
-          <Link to="/contact">CONTACT</Link>
+          <a href="https://www.github.com/m-maaz-azhar" target="_blank" rel="noreferrer">GITHUB</a>
         </ul>
       </nav>
     </header>
   );
 }
 
-export default Header;
+export default Navbar;

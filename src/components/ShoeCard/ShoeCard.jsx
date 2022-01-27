@@ -11,7 +11,7 @@ function ShoeCard(props) {
       </div>
       <span>
         <h2>{title}</h2>
-        <p>{price}</p>
+        <p>${price}</p>
         <Link to={`/products/${id}`} ><button>View</button></Link>
       </span>
     </div>

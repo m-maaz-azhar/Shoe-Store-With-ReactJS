@@ -1,0 +1,56 @@
+@media screen and (max-width:800px){
+    .container{
+        overflow: hidden !important;
+    }
+    .container img{
+        max-width: 100% !important;
+    }
+}
+a{
+    text-decoration: none;
+    color:#DB2F53;
+    margin: 0px 5px;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.container img{
+    width: 600px;
+    transition: transform .2s;
+    overflow: hidden;
+}
+
+.container img:hover{
+    transform: scale(1.2);
+}
+.container>section ul{
+    margin:20px 0;
+}
+.container>section li{
+    margin:10px 0px;
+}
+.container>section button{
+    background-color:#DB2F53;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin:10px 0px;
+}
+.container>section button:hover{
+    background-color: #ff2352d3;
+}
+strike{
+    color: #DB2F53;
+    margin: 0 10px;
+    font-weight: lighter;
+}
+p{
+    font-weight: lighter;
+    font-size: 14px;
+}
